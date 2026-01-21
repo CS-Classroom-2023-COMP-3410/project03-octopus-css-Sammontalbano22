@@ -1,0 +1,138 @@
+
+
+/* Making Consistant Font */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Header is for the blue Otopus Title */ 
+
+#header{
+	background-color: rgb(7, 155, 248);
+    text-align: center;
+    color: white;
+    padding: 5px;
+
+
+}
+
+#main-content h2
+
+{
+    text-transform: uppercase;
+   
+}
+
+
+#main-content h3
+
+{
+    text-transform: uppercase;
+
+    margin-top: -5px;
+   
+}
+
+li{
+
+    line-height: 1.7;
+}
+
+
+.important{
+    color: rgb(244, 134, 70);
+    font-weight:bold;
+  
+}
+
+#main-content h6{
+    font-size: small;
+}
+
+
+#main-content h6 + p{
+    margin-top: -15px;
+}
+
+
+/* QUIZ SECTIION */
+
+/* Attempted to make a flex box similar to what is in the image but couldn't figure out with current css how to get octopus quiz on top of the form */
+/* https://www.w3schools.com/css/css3_flexbox_container.asp */
+#quiz-section{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    border: .1px solid rgb(236, 240, 241);
+    background-color: rgba(158, 220, 247, 0.274);
+    flex-direction: row;
+    padding: 30px 50px 50px 20px;
+}
+
+
+#quiz-section h2, #quiz-section form{
+    display: block;
+
+}
+
+#quiz-section h2{
+    order:1;
+    width: 100%;
+
+}
+#quiz-section form{
+    order:2;
+    width: 100%;
+
+
+
+ 
+}
+
+#quiz-section img{
+    border: 4px solid rgba(145, 5, 177, 0.939);
+    order:3;
+    align-self: flex-start;
+
+}
+
+
+
+
+
+/* CSS for the common octopus table */
+
+#species-table h2{
+    margin-bottom: -1px;
+
+}
+
+
+
+#species-table th{
+    
+    background-color: rgb(181, 179, 179);
+    color: white;
+    font-size: smaller;
+    padding: 4px 4px 4px 4px;
+    text-align: left;
+
+
+}
+
+#species-table td{
+    font-size: smaller;
+    padding: 4px 4px 4px 4px;
+    text-align: center;
+
+
+}
+/* For the footer I have struggled at the current font to have it span the entire width while only having slight padding on left and right side */
+#footer{
+margin-top: 25px;
+text-align:center;
+padding: 1px 1px 1px 1px;
+background-color: rgb(230, 228, 228);
+}
